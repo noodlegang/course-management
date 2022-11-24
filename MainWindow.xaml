@@ -1,0 +1,30 @@
+﻿<Window x:Class="SportsCoachingTimeManagement1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SportsCoachingTimeManagement1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="buttonSave" Content="Save" HorizontalAlignment="Left" Margin="130,263,0,0" VerticalAlignment="Top" Height="30" Width="82" Click="Button_Click"/>
+        <Label x:Name="formAdmin" Content="Please. fill in information to add new coaching course." HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="37" Width="319"/>
+        <ListBox x:Name="listBox" Margin="495,94,53,84"/>
+        <Label x:Name="labelList" Content="All available courses:" HorizontalAlignment="Left" Margin="562,63,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textID" MaxLength="15" HorizontalAlignment="Left" Margin="28,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFD0D0D0"/>
+        <Label x:Name="labelName" Content="Course ID:" HorizontalAlignment="Left" Margin="28,96,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textName" MaxLength="15" HorizontalAlignment="Left" Margin="28,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFD0D0D0"/>
+        <Label x:Name="labelName1" Content="Coaches name:" HorizontalAlignment="Left" Margin="28,152,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelSurname" Content="Coaches surname:" HorizontalAlignment="Left" Margin="28,200,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textSurname" MaxLength="15" HorizontalAlignment="Left" Margin="28,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  Background="#FFD0D0D0"/>
+        <TextBox x:Name="textDay" MaxLength="15" HorizontalAlignment="Left" Margin="193,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  Background="#FFD0D0D0" RenderTransformOrigin="0.484,0.682"/>
+        <Label x:Name="labelDay" Content="Day:" HorizontalAlignment="Left" Margin="193,152,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelTime" Content="Time:" HorizontalAlignment="Left" Margin="193,201,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textTime" MaxLength="15" HorizontalAlignment="Left" Margin="193,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFD0D0D0" RenderTransformOrigin="0.484,0.682"/>
+        <Button x:Name="labelClose" Content="Close" HorizontalAlignment="Left" Margin="665,370,0,0" VerticalAlignment="Top" Height="30" Width="82" Click="Button_Click_2" IsEnabled="False"/>
+        <Label x:Name="labelName_Copy" Content="Sport type:" HorizontalAlignment="Left" Margin="193,96,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textType" MaxLength="15" HorizontalAlignment="Left" Margin="193,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  Background="#FFD0D0D0"/>
+        <Label x:Name="labelMistake" HorizontalAlignment="Left" Margin="138,375,0,0" VerticalAlignment="Top" Foreground="Red"/>
+
+    </Grid>
+</Window>

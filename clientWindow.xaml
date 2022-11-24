@@ -1,0 +1,23 @@
+﻿<Window x:Class="SportsCoachingTimeManagement1.clientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SportsCoachingTimeManagement1"
+        mc:Ignorable="d"
+        Title="clientWindow" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="buttonBuy" Content="Enroll" HorizontalAlignment="Left" Margin="515,335,0,0" VerticalAlignment="Top" Height="29" Width="57" Click="buttonBuy_Click"/>
+        <Label x:Name="label1" Content="Welcome!" HorizontalAlignment="Center" Margin="0,21,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="listChoiceThing" HorizontalAlignment="Center" Margin="0,69,0,0" VerticalAlignment="Top" Width="344" RenderTransformOrigin="0.5,0.493" Height="29"/>
+        <Label x:Name="labelName" Content="Enter your name:" HorizontalAlignment="Left" Margin="228,122,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textName" MaxLength="15" HorizontalAlignment="Left" Margin="228,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFD0D0D0"/>
+        <Label x:Name="textCode" Content="Enter your personal code:" HorizontalAlignment="Left" Margin="228,177,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textCode1" MaxLength="11" HorizontalAlignment="Left" Margin="228,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="145" Background="#FFD0D0D0"/>
+        <Label x:Name="textEmail" Content="Enter your e-mail:" HorizontalAlignment="Left" Margin="228,233,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textEmail1" MaxLength="15" HorizontalAlignment="Left" Margin="228,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFD0D0D0"/>
+        <CheckBox x:Name="checkBox" Content="I agree to Terms Of Use" HorizontalAlignment="Left" Margin="228,298,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelMistake" HorizontalAlignment="Center" Margin="0,375,0,0" VerticalAlignment="Top" Foreground="Red"/>
+
+    </Grid>
+</Window>
